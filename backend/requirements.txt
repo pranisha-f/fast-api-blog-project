@@ -1,3 +1,15 @@
 fastapi==0.100.0
 uvicorn==0.22.0
 # asynchronous web server
+sqlalchemy==2.0.40
+# ORM for database interaction 
+psycopg2
+# PostgreSQL adapter for Python
+python-dotenv
+alembic
+pydantic[email]
+passlib[bcrypt]
+# for password hashing
+python-jose
+python-multipart
+Jinja2
